@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\bubbles.png" />
+    <None Remove="Images\lobster.png" />
+    <None Remove="Images\pot.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LobsterPot">
+      <HintPath>LobsterPot.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\bubbles.png" />
+    <Resource Include="Images\lobster.png" />
+    <Resource Include="Images\pot.png" />
+  </ItemGroup>
+
+</Project>

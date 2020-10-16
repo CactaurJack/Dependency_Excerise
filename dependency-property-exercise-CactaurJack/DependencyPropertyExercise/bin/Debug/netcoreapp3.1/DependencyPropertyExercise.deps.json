@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DependencyPropertyExercise/1.0.0": {
+        "dependencies": {
+          "LobsterPot": "1.0.0.0"
+        },
+        "runtime": {
+          "DependencyPropertyExercise.dll": {}
+        }
+      },
+      "LobsterPot/1.0.0.0": {
+        "runtime": {
+          "LobsterPot.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DependencyPropertyExercise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LobsterPot/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
